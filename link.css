@@ -151,7 +151,24 @@ input[type="radio"] {
   height: 1.15rem;
   border: 1.5px solid black;
 }
-
+a {
+  text-decoration: none;
+  color: var(--color);
+}
+form .btn {
+  padding: 0.7rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  background-color: var(--btn-color);
+  font-size: 1.5em;
+  margin-top: var(--small-space);
+}
+form .btn:hover {
+  cursor: pointer;
+  background: rgb(87, 189, 87);
+}
 @media screen and (min-width: 760px) {
   header {
     font-size: var(--main-header-font);
@@ -207,6 +224,7 @@ input[type="radio"] {
   table tr td:nth-child(2) {
     width: 13rem;
   }
+
   footer p {
     font-size: 1.5em;
   }
