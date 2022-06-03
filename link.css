@@ -187,12 +187,14 @@ input[type="radio"] {
     padding-left: var(--small-space);
   }
   .demo-questions-container p,
+  .demo-questions-container label,
+  .demo-questions-container input,
   .demo-questions-title,
   .product-awareness #product-title,
   .product-survey p,
   li,
-  label {
-    font-size: 1.5em;
+  .form-questions label {
+    font-size: 1.2em;
   }
   table {
     width: 100%;
